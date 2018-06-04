@@ -1,0 +1,29 @@
+{
+    "name": "fcc-timestamp-microservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha index.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thayton/fcc-timestamp-microservice.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thayton/fcc-timestamp-microservice/issues"
+    },
+    "homepage": "https://github.com/thayton/fcc-timestamp-microservice#readme",
+    "dependencies": {
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "jest": "^23.1.0",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.17.5",
+        "supertest": "^3.1.0"
+    }
+}
