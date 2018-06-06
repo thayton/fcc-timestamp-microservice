@@ -2,6 +2,8 @@ const express = require('express');
 const port = process.env.PORT || 3000;
 const app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 // The API endpoint is GET [project_url]/api/timestamp/:date_string?
 app.get('/api/timestamp/:date_string?', (req, res) => {
     let dateString = req.params.date_string;
